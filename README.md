@@ -44,12 +44,13 @@ If you try it, I’m **open to suggestions** for features and improvements—ope
 
 | What you need | Where to get it |
 |---------------|-----------------|
-| **Installer (recommended)** | [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases) → open the newest tag → download **`HoldAssist-Setup.exe`** |
+| **Portable (zip)** | [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases/latest) → **`HoldAssist-Portable.zip`** — unzip, run `HoldAssist.exe` |
+| **Installer (optional)** | Same release page → **`HoldAssist-Setup.exe`** if published (setup wizard + startup shortcuts) |
 | **Source code** | `git clone https://github.com/RetroCodeRamen/Hold-Assist.git` |
 
-The installer includes everything (app + voice model). **No Python** is required on the machine where you take calls.
+Both builds include the app and voice model. **No Python** on the PC where you take calls.
 
-> **Note:** The repo README links to “latest release” only **after** you publish at least one release on GitHub (see [GITHUB.md](GITHUB.md)). Until then, use the [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases) page or build locally with [Build the installer](#build-the-installer).
+> **First release:** publish `HoldAssist-Portable.zip` on the [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases) page — see [RELEASE.md](RELEASE.md). `/releases/latest` works after that.
 
 ---
 
@@ -63,7 +64,7 @@ The installer includes everything (app + voice model). **No Python** is required
 
 ## Quick start (install)
 
-1. Download and run **`HoldAssist-Setup.exe`** from [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases) (newest published version).
+1. From [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases/latest), download **`HoldAssist-Portable.zip`**, unzip, and run **`HoldAssist.exe`** (or use **`HoldAssist-Setup.exe`** if that asset is on the release).
 2. During setup, you can leave checked (recommended):
    - **Start Hold Assist when you sign in to Windows**
    - **Begin listening automatically at startup**

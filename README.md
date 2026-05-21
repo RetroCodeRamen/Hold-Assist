@@ -1,4 +1,4 @@
-﻿# Hold Assist
+# Hold Assist
 
 **Know when hold music ends and a real person is on the line.**
 
@@ -17,8 +17,6 @@ A client asked whether we could add **“notify when hold ends”** to their tel
 Rather than leave it at “not possible,” I spent a little time to see if we could still make it happen on Windows. **This is what I came up with:** a **quick-and-dirty** sidecar utility—not part of the phone system, but it **works**. It runs **fully on your PC**, **fully local** (no cloud, no upload of call audio), and is meant to be **as simple and secure as practical** for a tool of this kind.
 
 If you try it, I’m **open to suggestions** for features and improvements—open an [issue](https://github.com/RetroCodeRamen/Hold-Assist/issues) or contribute via pull request.
-
-> **After you publish the repo:** replace `RetroCodeRamen` in GitHub links with your username (or run `scripts\setup_github.ps1` with `-GitHubUser`).
 
 ---
 
@@ -46,12 +44,12 @@ If you try it, I’m **open to suggestions** for features and improvements—ope
 
 | What you need | Where to get it |
 |---------------|-----------------|
-| **Installer (recommended)** | [**Latest release**](https://github.com/RetroCodeRamen/Hold-Assist/releases/latest) → `HoldAssist-Setup.exe` |
+| **Installer (recommended)** | [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases) → open the newest tag → download **`HoldAssist-Setup.exe`** |
 | **Source code** | `git clone https://github.com/RetroCodeRamen/Hold-Assist.git` |
 
 The installer includes everything (app + voice model). **No Python** is required on the machine where you take calls.
 
-If there is no release yet, build the installer locally—see [Build the installer](#build-the-installer)—or run from source under [For developers](#for-developers).
+> **Note:** The repo README links to “latest release” only **after** you publish at least one release on GitHub (see [GITHUB.md](GITHUB.md)). Until then, use the [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases) page or build locally with [Build the installer](#build-the-installer).
 
 ---
 
@@ -65,7 +63,7 @@ If there is no release yet, build the installer locally—see [Build the install
 
 ## Quick start (install)
 
-1. Download and run **`HoldAssist-Setup.exe`** from [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases/latest).
+1. Download and run **`HoldAssist-Setup.exe`** from [Releases](https://github.com/RetroCodeRamen/Hold-Assist/releases) (newest published version).
 2. During setup, you can leave checked (recommended):
    - **Start Hold Assist when you sign in to Windows**
    - **Begin listening automatically at startup**

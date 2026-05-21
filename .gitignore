@@ -1,0 +1,39 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Build outputs (generated locally or in CI)
+dist/
+build/
+bundle/
+installer/output/
+*.spec.bak
+
+# Old venv backups
+.venv.store_old_*/
+.venv.old_*/
+
+# Logs and local config (users get their own in AppData)
+hold_assist.log
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Cursor / local tooling
+.cursor/
+agent-tools/
+
+# Accidental large artifacts
+*.exe
+!installer/*.iss
+HoldAssist-Portable.zip
+
+# Keep icon source in repo; generated assets are optional to commit
+# assets/icon.png and assets/icon.ico are built from icon.jpg — commit both for convenience
